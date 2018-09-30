@@ -1,29 +1,22 @@
 Tomcat-Research
 ==================
 
-Tomcat源代码学习研究(包括代码注释、文档、用于代码分析的测试用例)
+本项最开始来自于https://github.com/codefollower/Tomcat-Research.git，本人准备在其基础上阅读tomcat源码并做相应的注释，启动本项目可以直接使用idea，运行配置参数如下：
 
-
-## 使用的Tomcat版本
-
-保持与官方的[trunk](https://github.com/apache/tomcat)版本同步
-
-
-## 构建与运行环境
-
-需要JDK7以及[Apache Maven](http://maven.apache.org/)
-
-
-## 生成Eclipse工程
-
-mvn eclipse:eclipse <br><br>
-
-在eclipse中导入 <br>
-File->Import->General->Existing Projects into Workspace
-
-
-## 运行Tomcat
-
-在Eclipse中右击start-tomcat.launch这个文件，点Run As启动Tomcat，点Debug As可以调试Tomcat。
-
-<p>最后，打开你的浏览器，输入 http://127.0.0.1:8080/examples/ 看看例子吧。
+```
+<configuration default="false" name="tomcat" type="Application" factoryName="Application">
+  <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+  <option name="MAIN_CLASS_NAME" value="org.apache.catalina.startup.Bootstrap" />
+  <option name="VM_PARAMETERS" value="-Dcatalina.home=launch -Dcatalina.base=launch -Djava.endorsed.dirs=launch/endorsed -Djava.io.tmpdir=launch/temp -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.util.logging.config.file=launch/conf/logging.properties" />
+  <option name="PROGRAM_PARAMETERS" value="start" />
+  <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+  <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+  <option name="ALTERNATIVE_JRE_PATH" value="jdk8" />
+  <option name="ENABLE_SWING_INSPECTOR" value="false" />
+  <option name="ENV_VARIABLES" />
+  <option name="PASS_PARENT_ENVS" value="true" />
+  <module name="tomcat-research" />
+  <envs />
+  <method />
+</configuration>
+```
