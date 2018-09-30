@@ -48,6 +48,17 @@ import org.apache.juli.logging.LogFactory;
  * @author Remy Maucherat
  * @version $Id$
  */
+/**
+ * tomcat启动类，main方法为启动入口
+ * 类加载运行顺序为：
+ * 1、先说下没有继承关系的三者的执行顺序：
+    首先，加载时候运行（导入的时候加载，也就是用的时候加载），只运行一次，加载应该是满足从上到下从左到右的顺序，一般为静态变量、静态的语句块，这个时候只有类模板，没有成员对象。
+    接着，new的时候调用顺序是：分配成员变量、执行非静态语句块、执行构造函数。
+   2、有继承关系的执行顺序大致的为父类的静态相关、子类的静态相关、父类的非静态相关、子类的非静态相关。
+    静态相关的执行顺序和非继承关系中的执行顺序是一样的，先执行静态变量、静态语句块、静态方法。
+ *
+ */
+
 public final class Bootstrap {
 
     private static final Log log = LogFactory.getLog(Bootstrap.class);
