@@ -22,4 +22,4 @@ Tomcat-Research
 ```
 idea配置如下图：
 
-![](.\imgs\0001_环境配置.png)
+![](imgs\0001_环境配置.png)
