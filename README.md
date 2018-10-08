@@ -20,3 +20,6 @@ Tomcat-Research
   <method />
 </configuration>
 ```
+idea配置如下图：
+
+![](E:\idea_develop_work\github_work\Tomcat-Research\imgs\0001_环境配置.png)
