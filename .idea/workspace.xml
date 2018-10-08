@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c24ed17-927c-46a3-b8b2-82e6d3ed3a55" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\libraries\Maven__cglib_cglib_nodep_2_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\libraries\Maven__javax_xml_jaxrpc_api_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\libraries\Maven__junit_junit_4_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\libraries\Maven__org_apache_ant_ant_1_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\libraries\Maven__org_apache_ant_ant_launcher_1_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\libraries\Maven__org_easymock_easymock_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\libraries\Maven__org_eclipse_jdt_core_compiler_ecj_4_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\libraries\Maven__org_objenesis_objenesis_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\libraries\Maven__wsdl4j_wsdl4j_1_6_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\idea_develop_work\github_work\Tomcat-Research\.idea\workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="2c24ed17-927c-46a3-b8b2-82e6d3ed3a55" name="Default" comment=" remove .idea">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tomcat-research.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -463,12 +447,19 @@
       <option name="number" value="Default" />
       <updated>1538299333857</updated>
       <workItem from="1538299337706" duration="1131000" />
-      <workItem from="1538963091498" duration="750000" />
+      <workItem from="1538963091498" duration="807000" />
     </task>
+    <task id="LOCAL-00001" summary=" remove .idea">
+      <created>1538963865123</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538963865123</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1881000" />
+    <option name="totallyTimeSpent" value="1938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -476,6 +467,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -495,7 +487,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6175115" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -506,6 +497,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" remove .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value=" remove .idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
